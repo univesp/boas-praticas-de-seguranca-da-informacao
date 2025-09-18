@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta property="og:image" content="assets/fb-share.png">
+  <meta name="author" content="Univesp">
+  <meta name="description" property="og:description"
+  content="Neste REA, você poderá localizar as falhas humanas no quesito segurança da informação em um ambiente de trabalho."/>
+  <meta name="keywords" content="TIC, Tecnologia da informação, segurança, segurança da informação, gestão pública">
+
+  <title>Univesp | Boas Práticas de Segurança da Informação</title>
+
+  <link rel="shortcut icon" href="http://apps.univesp.br/common/favicon.ico" type="image/x-icon"/>
+
+  <!-- Arquivos Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- Ícones por Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <!-- Ícones por Material Icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <!-- Tipografia por Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Barlow:300,400,700|Open+Sans:400,400i,700,700i" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great|Muli:400,700" rel="stylesheet">
+
+  <!-- Compartilhamento por jsSocials -->
+  <link type="text/css" rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.jssocials/1.4.0/jssocials.css" />
+  <link type="text/css" rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.jssocials/1.4.0/jssocials-theme-minima.css" />
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="https://apps.univesp.br/common/rea-geral-2.0.css">
+  <link rel="stylesheet" href="stylesheets/main.css">
+  <link rel="stylesheet" href="stylesheets/nav_footer.css">
+
+</head>
+
+<body class="flex flex-column" id="index">
+
+  <!-- Menu -->
+  <nav class="d-print-none">
+    <div class="container flex justify-content-between">
+      <div class="logo">
+        <a class="pularNavegacao" href="#conteudoPrincipal">Pular para Conteúdo Principal</a>
+        <a href="https://univesp.br/" target="_blank">
+          <img src="https://apps.univesp.br/common/traco-negativa.svg" alt="Link para site institucional. Logotipo da universidade formado pela palavra Univesp em letras maiúsculas, sendo a letra V estilizada.">
+        </a>
+      </div>
+      <ul class="nav justify-content-end">
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+            <i class="material-icons" aria-label="Opções de Compartilhamento">share</i>
+          </a>
+          <div class="dropdown-menu dropdown-menu-right">
+            <div class="sharing" id="share-buttons"></div>
+          </div>
+        </li>
+
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Conteúdo -->
+
+<div class="container-fluid" style="background-color: white; padding-top: 5rem" id="intro">
+<div class="row">
+  <div class="col-sm-8" style="padding-left: 0; padding-right: 0">
+  	<div class="fundo" style="width: 100%; position: relative;">
+      <img src="assets/layout.png" style="width: 100%; height:auto; padding-top:4%; -webkit-filter: grayscale(100%); filter: grayscale(100%);">
+          <div class="elemento_clicavel" id="item_1">
+            <img class="item_imagem1 contorno" style="display: none;" src="assets/marcador-1.svg">
+              <div class="marcador marcador-1"></div>
+    	  </div>
+    	  <div class="elemento_clicavel" id="item_2">
+            <img class="item_imagem2 contorno" style="display: none;" src="assets/marcador-2.svg">
+              <div class="marcador marcador-2"></div>
+    	  </div>
+    	  <div class="elemento_clicavel" id="item_3">
+            <img class="item_imagem3 contorno" style="display: none;" src="assets/marcador-3.svg">
+              <div class="marcador marcador-3"></div>
+    	  </div>
+    	  <div class="elemento_clicavel" id="item_4">
+            <img class="item_imagem4 contorno" style="display: none;" src="assets/marcador-4.svg">
+              <div class="marcador marcador-4"></div>
+    	  </div>
+    	  <div class="elemento_clicavel" id="item_5">
+            <img class="item_imagem5 contorno" style="display: none;" src="assets/marcador-5.svg">
+              <div class="marcador marcador-5"></div>
+    	  </div>
+    	  <div class="elemento_clicavel" id="item_6">
+            <img class="item_imagem6 contorno" style="display: none;" src="assets/marcador-6.svg">
+              <div class="marcador marcador-6"></div>
+    	  </div>
+    	  <div class="elemento_clicavel" id="item_7">
+            <img class="item_imagem7 contorno" style="display: none;" src="assets/marcador-7.svg">
+              <div class="marcador marcador-7"></div>
+    	  </div>
+  	</div>
+  </div>
+  <div class="col-sm-4" style="padding-left: 0; padding-right: 0; margin-top: 2.5%; background-color: #353f45; display: flex; justify-content:center; overflow: auto; min-height: 150px;" align="center">
+
+
+  <div class="mensagem1" style="display: none;"><div class="final"><p>0/7</p></div><p>Sua senha é sigilosa. Deixá-la em local visível permite que qualquer pessoa possa usá-la!</p><div class="botao2" style="display: none;"><strong>Reiniciar</strong></div></div>
+  <div class="mensagem2" style="display: none;"><div class="final"><p>0/7</p></div><p>Nunca deixe seu computador “aberto”, isto é, logado, pois, dessa forma, qualquer pessoa que também esteja logada poderá acessar seus arquivos e e-mail. Além de deixar seu computador com uma senha configurada, ao sair, ative a opção <strong>“Suspender”</strong> para que a senha de acesso seja solicitada ao tentar entrar no computador</p><div class="botao2" style="display: none;"><strong>Reiniciar</strong></div></div>
+  <div class="mensagem3" style="display: none;"><div class="final"><p>0/7</p></div><p>Celular é uma fonte valiosa de informações. Mensagens de Whatsapp, fotografias e até mesmo e-mails podem ser facilmente acessados se ele não tiver uma senha de bloqueio que ative automaticamente.</p><div class="botao2" style="display: none;"><strong>Reiniciar</strong></div></div>
+  <div class="mensagem4" style="display: none;"><div class="final"><p>0/7</p></div><p>Fique atento: um documento reservado foi descartado de forma incorreta, sem antes ser fisicamente destruído.</p><div class="botao2" style="display: none;"><strong>Reiniciar</strong></div></div>
+  <div class="mensagem5" style="display: none;"><div class="final"><p>0/7</p></div><p>É possível recuperar um arquivo ou pasta quando ele é enviado para lixeira ou é simplesmente “deletado”! Para garantir que ninguém consiga tirar os arquivos da lixeira, esvazie-a logo em seguida.</p><div class="botao2" style="display: none;"><strong>Reiniciar</strong></div></div>
+  <div class="mensagem6" style="display: none;"><div class="final"><p>0/7</p></div><p>Se o objetivo é ter um backup, ou seja, uma cópia de segurança, não o deixe no mesmo lugar que os arquivos originais. Afinal, é até mais fácil roubar um pendrive ou um HD externo do que um computador! Pense na possibilidade de guardar o backup em outro lugar ou até mesmo armazenar os arquivos na nuvem.</p><div class="botao2" style="display: none;"><strong>Reiniciar</strong></div></div>
+  <div class="mensagem7" style="display: none;"><div class="final"><p>0/7</p></div><p>Para tentar invadir seu sistema, e-mail ou qualquer outro lugar que tenha senha, a primeira coisa que os ladrões tentarão fazer é arriscar senhas lógicas, como sequências numéricas (123456, 000000, 987654 etc.), datas importantes (aniversário, casamento etc.) e nomes de pessoas próximas (cônjuge, animais de estimação, pais etc.).</p><div class="botao2" style="display: none;"><strong>Reiniciar</strong></div></div>
+
+  	<div class="lateral">
+      <h2>BOAS PRÁTICAS DE SEGURANÇA DA INFORMAÇÃO</h2>
+      <p>Encontre nesta repartição pública</p><p><strong style="color: #70dbed;">7</strong> falhas críticas de segurança.</p>
+      <p>Clique para encontrá-las!</p>
+      <div class="botao"><strong>Começar</strong></div>
+    </div>
+  </div>
+</div>
+
+
+
+
+  <!-- Rodapé -->
+  <footer style="background-color: white">
+    <div class="container flex justify-content-between align-items-center d-print-none">
+
+      <div class="cred-rea">
+
+        <!-- Comente em caso de adaptação do REA -->
+        <p>
+          <span>Recurso Educacional Aberto (REA) desenvolvido pela <a href="https://univesp.br/" target="blank">Univesp</a>, disponível sob licença <a href="http://apps.univesp.br/common/license_MIT_2019.txt" target="_blank">MIT</a>.
+          Você pode utilizá-lo, compartilhá-lo e modificá-lo.</span>
+          <span><button class="btn btn-link" data-toggle="modal" data-target="#creditos">Créditos</button></span>.
+        <p>
+        <!-- Descomente em caso de adaptação do REA -->
+        <!-- <p>
+          <span>Recurso Educacional Aberto (REA) adaptado por SEU NOME.</span>
+          <span><a href="#">Versão original da Univesp</a></span>
+        </p> -->
+      </div>
+
+      <div class="aval-rea flex">
+        <a class="btn btn-secondary" href="https://forms.office.com/r/XpSLd9rM7m" target="_blank">Avaliar este recurso</a>
+        <a class="btn btn-secondary" href="https://forms.office.com/r/BU3heRJ9ZP" target="_blank">Reportar erro</a>
+      </div>
+
+    </div>
+  </footer>
+  <!-- Fim do rodapé -->
+
+  <!-- Créditos -->
+  <div class="modal fade" id="creditos" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-body">
+
+          <h6>Governo do Estado de São Paulo</h6>
+          <p>Secretaria de Desenvolvimento Econômico</p>
+
+          <h6>UNIVERSIDADE VIRTUAL DO ESTADO DE SÃO PAULO – UNIVESP</h6>
+          <p><span class="funcao">Presidente</span>Rodolfo Jardim de Azevedo</p>
+          <p><span class="funcao">Diretora Acadêmica</span>Simone Telles Martins Ramos</p>
+
+          <h6>Equipe</h6>
+          <p><span class="funcao">Layout</span>Natasha Higa</p>
+          <p><span class="funcao">Programação</span>Celso de Oliveira</p>
+          <p><span class="funcao">Planejamento e Design Instrucional</span>Natália de Oliveira Fernandes</p>
+          <p><span class="funcao">Docente responsável</span>Thaís Cilli</p>
+
+        </div>
+        <div class="modal-footer">
+          <p>Março/2019</p>
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Arquivos Bootstrap -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script src="https://apps.univesp.br/common/jquery-ui-touch-punch.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+  <!-- jsSocials -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.jssocials/1.4.0/jssocials.min.js"></script>
+  <script>
+  var share = $("#share-buttons");
+  var page_title = $(document).attr('title');
+  var page_url = window.location.href;
+  share.jsSocials({
+    shares: [
+      {
+        share: "facebook",
+        label: "Facebook",
+        logo: "fab fa-facebook-f",
+      },
+      {
+        share: "twitter",
+        label: "Twitter",
+        logo: "fab fa-twitter",
+      },
+      {
+        share: "whatsapp",
+        label: "Whatsapp",
+        logo: "fab fa-whatsapp",
+      },
+    ],
+    url: page_url,
+    text: 'Confira o REA ' + page_title + '.',
+    showLabel: true,
+    showCount: false,
+    shareIn: "popup",
+  });
+
+  </script>
+
+
+  <!-- Custom JS -->
+  <script type="text/javascript" src="javascripts/events.js"></script>
+
+  <!-- Analytics. Remova em caso de reutilização do REA -->
+  <script src="https://apps.univesp.br/common/analytics.js"></script>
+
+</body>
+
+</html>
